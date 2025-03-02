@@ -1,0 +1,186 @@
+@media only screen and (max-width: 600px) { 
+     body{
+        display: flex;
+
+        margin: 0%;
+        padding: 0%;
+
+        box-sizing: border-box;
+        background: black;
+        overflow-y: scroll;
+     }
+     
+     h1{
+        display: flex;
+        position: absolute;
+        color: white;
+        z-index: 10;
+
+        top: 20px;
+        left: 20px;
+        font-size: 25px;
+        
+     }
+
+     .bnt-whatsapp{
+        display: flex;
+        position: fixed;
+        right: 7%;
+
+        background: green;
+
+        height: 70px;
+        width: 70px;
+
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+
+        top: 85%;
+
+        z-index: 100;
+     }
+
+     .img-wpp{
+        display: flex;
+        position: fixed;
+
+
+
+        width: 50px;
+        height: 50px;
+     }
+     .container-menu-curso{
+        display: flex;
+        position: absolute;
+
+        background: black;
+        
+        align-items: center;
+        justify-content: center;
+
+        height: 400px;
+        width: 100%;
+
+        top: 50px;
+     }
+
+     .img-logo{
+        display: flex;
+        position: absolute;
+        
+
+        justify-content: center;
+        align-items: center;
+
+        height: 150px;
+        width: 200px;
+
+        top: 75px;
+     }
+
+     .container-curso{
+        display: flex;
+        position: absolute;
+
+        border: 1px solid white;
+        border-radius: 10px;
+        background: black;
+
+        height: 40px;
+        width: 150px;
+
+        justify-content: center;
+        align-items: center;
+        top: 280px;
+        color: white;
+
+        z-index: 11;
+        
+     }
+
+     .container-informacoes{
+        display: flex;
+        position: absolute;
+
+        width: 99%;
+       
+        height: 430px;
+
+        background: black;
+       
+
+        justify-content: center;
+        align-items: center;
+
+        border-style: dashed;
+        top: 450px;
+        
+
+     }
+
+     .lista{
+        display: inline;
+        position: absolute;
+        color: white;
+        left: 0px;
+        top: 0px;
+     }
+
+     .container-saiba-mais{
+        display: flex;
+        position: absolute;
+
+        background: black;
+
+        border: 1px solid white;
+
+        height: 40px;
+        width: 150px;
+        border-radius: 10px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+
+        bottom: 20px;
+     }
+
+     .bnt-saiba-mais{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+        color: white;
+
+        height: 100%;
+        width: 100%;
+     }
+
+     .bnt-wpp{
+        display: flex;
+        position: absolute;
+
+        height: 100%;
+        width: 100%;
+
+     }
+
+     .bnt-adquirir{
+        display: flex;
+        position: absolute;
+        justify-content: center;
+        align-items: center;
+
+        text-decoration: none;
+        color: white;
+
+        height: 100%;
+        width: 100%;
+
+        
+     }
+
+     
+ }

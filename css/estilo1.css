@@ -1,0 +1,106 @@
+@media only screen and (max-width: 600px) { 
+
+    body{
+        display: flex;
+        background: black;
+
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    h1{
+        display: flex;
+        position: absolute;
+        color: white;
+        z-index: 10;
+
+        top: 20px;
+        left: 20px;
+        font-size: 25px;
+        
+     }
+
+    .container-menu-curso{
+        display: flex;
+        position: absolute;
+
+        background: black;
+        
+        align-items: center;
+        justify-content: center;
+
+        height: 400px;
+        width: 100%;
+
+        top: 50px;
+     }
+
+     .img-logo{
+        display: flex;
+        position: absolute;
+        
+
+        justify-content: center;
+        align-items: center;
+
+        height: 150px;
+        width: 200px;
+
+        top: 75px;
+     }
+
+     .text{
+        display: flex;
+        position: absolute;
+
+        color: white;
+
+        margin: 50px;
+        top: 250px;
+
+        z-index: 101;
+
+
+     }
+     .text2{
+        display: flex;
+        position: absolute;
+
+        color: white;
+
+        margin: 50px;
+        top: 480px;
+
+        z-index: 101;
+
+
+     }
+     .text1{
+        display: inline;
+        position: absolute;
+
+        color: white;
+
+        margin: 50px;
+        top: 280px;
+
+        z-index: 101;
+
+
+     }
+     .text3{
+        display: inline;
+        position: absolute;
+
+        color: white;
+
+        margin: 50px;
+        top: 510px;
+
+        z-index: 101;
+
+
+     }
+
+ }

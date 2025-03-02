@@ -1,0 +1,135 @@
+@media only screen and (max-width: 600px) { 
+
+
+    body{
+        display: flex;
+
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+
+        background: black;
+    }
+
+    h1{
+        display: flex;
+        position: absolute;
+        color: white;
+        z-index: 10;
+
+        top: 20px;
+        left: 20px;
+        font-size: 25px;
+        
+     }
+
+    .container-menu-curso{
+        display: flex;
+        position: absolute;
+
+        background: black;
+        
+        align-items: center;
+        justify-content: center;
+
+        height: 400px;
+        width: 100%;
+
+        top: 50px;
+     }
+
+     .img-logo{
+        display: flex;
+        position: absolute;
+        
+
+        justify-content: center;
+        align-items: center;
+
+        height: 150px;
+        width: 200px;
+
+        top: 75px;
+     }
+
+     .container-informacoes{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+        
+     }
+
+     .form{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 20px;
+        top: 90px;
+        background: black;
+        color: white;
+     }
+     .form1{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+
+        border-radius: 20px;
+        top: 130px;
+        background: black;
+        color: white;
+     }
+
+     .container-proxima-tela{
+        display: flex;
+        position: absolute;
+
+        justify-content: center;
+        align-items: center;
+
+        background: black;
+        border: 1px solid white;
+
+        height: 25px;
+        width: 150px;
+        border-radius: 20px;
+
+        top: 380px;
+     }
+
+     .link{
+        color: white;
+        text-decoration: none;
+     }
+
+     .text{
+        display: flex;
+        position: absolute;
+        color: white;
+        top: 290px;
+        left: 130px;
+        z-index: 100;
+        
+     }
+
+        .text1{
+            display: flex;
+            position: absolute;
+            color: white;
+            top: 470px;
+            font-size: 10px;
+            left: 170px;
+            right: 170px;
+
+            z-index: 101;
+
+        }
+    
+ }
+

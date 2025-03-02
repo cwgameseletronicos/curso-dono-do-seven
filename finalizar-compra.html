@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="css/estilo3.css">
+</head>
+<body>
+    <h1>Finalizar Compra</h1>
+
+    <div class="container-menu-curso">
+        <img src="img/logo-anonymous.jpg" alt="Logo" class="img-logo">
+    </div>
+
+    <!-- Texto centralizado abaixo da imagem -->
+    <div class="container-texto">
+        <p>Abaixo, basta copiar o código do PIX, colar no aplicativo e acompanhar o pagamento. Assim que for confirmado, todo o material do curso será entregue automaticamente no seu WhatsApp ou Gmail. O prazo máximo para o envio do produto é de 10 minutos.</p>
+    </div>
+
+    <!-- Container com o código e o botão para copiar -->
+    <div class="container-codigo">
+        <textarea id="codigo" readonly class="codigo">00020126810014br.gov.bcb.pix0136eb8678ff-202c-4dd6-a70d-e443d19ae47e0219curso dono do seven5204000053039865406100.005802BR5919OPTICA MARTINI LTDA6013Caxias do Sul62290525OPENVISI00000428955586ASA63045779</textarea>
+        <a href="#" class="botao-copiar" onclick="copiarCodigo()">Copiar Código</a>
+    </div>
+
+    <div class="container-pagar-com-cartao">
+        <a href="https://www.asaas.com/c/kbwd6g775o2mdovk" class="link">Pagar com cartao</a>
+    </div>
+
+    <script>
+        function copiarCodigo() {
+            var codigo = document.getElementById("codigo"); // Pega o texto da textarea
+            codigo.select(); // Seleciona o conteúdo da textarea
+            document.execCommand("copy"); // Copia o conteúdo para a área de transferência
+            alert("Código copiado!");
+        }
+    </script>
+
+</body>
+</html>

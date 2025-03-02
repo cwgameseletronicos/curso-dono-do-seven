@@ -1,0 +1,119 @@
+/* Estilo geral da página */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    justify-content: center;
+    background: black;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+
+/* Estilo do título */
+h1 {
+    color: white;
+    z-index: 101;
+    position: absolute;
+    top: 10px;
+    left: 20px;
+}
+
+/* Estilo do container da imagem */
+.container-menu-curso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    height: 150px;
+    width: 100%;
+    z-index: 100;
+}
+
+/* Estilo da imagem */
+.img-logo {
+    height: 150px;
+    width: 200px;
+}
+
+/* Estilo do container de texto */
+.container-texto {
+    margin-top: 20px;
+    text-align: center;
+    z-index: 102;
+    color: white;
+}
+
+/* Estilo do container do código e botão */
+.container-codigo {
+    margin-top: 30px;
+    text-align: center;
+    z-index: 101;
+    color: white;
+}
+
+/* Estilo da textarea */
+textarea {
+    width: 300px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid black;
+    margin-bottom: 20px;
+    background-color: #f0f0f0;
+    color: #333;
+    z-index: 101;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilo do botão copiar */
+.botao-copiar {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.botao-copiar:hover {
+    background-color: white;
+    color: black;
+}
+
+.container-pagar-com-cartao{
+    display: flex;
+    position: absolute;
+
+    height: 40px;
+    width: 200px;
+
+    border: 1px solid white;
+
+    top: 600px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+
+}
+
+.link{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.codigo{
+    overflow-y: hidden;
+}
